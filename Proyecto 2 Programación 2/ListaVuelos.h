@@ -15,7 +15,7 @@ public:
 		primero = actual = NULL;
 	}
 
-	void insertarVuelos(Vuelos v) {
+	void insertarVuelos(Vuelos v) {    // Este metodo lo que hace es que se guarda la informacion para la lista
 		actual = primero;
 		if (primero == NULL) {
 			primero = new NodoVuelos(v);
@@ -26,7 +26,7 @@ public:
 		}
 	}
 
-	void imprimeListaVuelos() {
+	void imprimeListaVuelos() {    // Este metodo se encarga de imprimir los datos actuales que tiene.
 		actual = primero;
 		cout << "Lista de vuelos disponibles: " << endl;
 		while (actual != NULL) {
@@ -60,7 +60,7 @@ public:
 		}
 	}*/
 
-	~ListaVuelos() {
+	~ListaVuelos() {   //Destructor de la listaVuelos
 		actual = primero;
 		while (primero != NULL) {
 			actual = primero;

@@ -21,7 +21,7 @@ public:
 		nombre_usuario = "";
 	}
 
-	Usuarios(string nNombre, string nEdad, string nNumero, string nContrasenia, string nNombreUsuario) {
+	Usuarios(string nNombre, string nEdad, string nNumero, string nContrasenia, string nNombreUsuario) {  // Contructor con parametros
 		setNombre(nNombre);
 		setEdad(nEdad);
 		setNumero(nNumero);
@@ -29,43 +29,43 @@ public:
 		setNombreUsuario(nNombreUsuario);
 	}
 
-	void setNombre(string nNombre) {
+	void setNombre(string nNombre) {     // Este Metodo se encarga de crea el set de nombre.
 		this->nombre = nNombre;
 	}
 
-	void setEdad(string nEdad) {
+	void setEdad(string nEdad) {    // Este Metodo se encarga de crea el set de edad.
 		this->edad = nEdad;
 	}
 
-	void setNumero(string nNumero) {
+	void setNumero(string nNumero) {   // Este Metodo se encarga de crea el set de numero.
 		this->numero_telefonico = nNumero;
 	}
 
-	void setContrasenia(string nContrasenia) {
+	void setContrasenia(string nContrasenia) {    // Este Metodo se encarga de crea el set de contrasenia.
 		this->contrasenia = nContrasenia;
 	}
 
-	void setNombreUsuario(string nNombreUsuario) {
+	void setNombreUsuario(string nNombreUsuario) {     // Este Metodo se encarga de crea el set de nombre usuario.
 		this->nombre_usuario = nNombreUsuario;
 	}
 
-	string getNombre() {
+	string getNombre() {    // Este Metodo se encarga de crea el get de nombre.
 		return this->nombre;
 	}
 
-	string getEdad() {
+	string getEdad() {      // Este Metodo se encarga de crea el get de edad.
 		return this->edad;
 	}
 
-	string getNumero() {
+	string getNumero() {    // Este Metodo se encarga de crea de get de numero.
 		return this->numero_telefonico;
 	}
 
-	string getContrasenia() {
+	string getContrasenia() {    // Este Metodo se encarga de crea el get de contrasenia.
 		return this->contrasenia;
 	}
 
-	string getNombreUsuario() {
+	string getNombreUsuario() {    // Este Metodo se encarga de crea el get de nombre usuario.
 		return this->nombre_usuario;
 	}
 

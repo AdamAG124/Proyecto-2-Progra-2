@@ -21,19 +21,19 @@ public:
 		siguiente = NULL;
 	}
 
-	void setVuelos(Vuelos v) {
+	void setVuelos(Vuelos v) {   // Este Metodo se encarga de crear el set de vueos
 		this->vue = v;
 	}
 
-	void setSiguiente(NodoVuelos* s) {
+	void setSiguiente(NodoVuelos* s) {    // Este Metodo se encarga de crear el set de siguiente 
 		this->siguiente = s;
 	}
 
-	Vuelos getVuelos() {
+	Vuelos getVuelos() {    // Este Metodo se encarga de crear el get de vueos
 		return this->vue;
 	}
 
-	NodoVuelos* getSiguiente() {
+	NodoVuelos* getSiguiente() {     // Este Metodo se encarga de crear el get de siguiente
 		return this->siguiente;
 	}
 

@@ -17,19 +17,19 @@ public:
 		siguiente = NULL;
 	}
 
-	void setAvines(Aviones a) {
+	void setAvines(Aviones a) {   // Este Metodo se encarga de crea un set de avines.
 		this->avi = a;
 	}
 
-	void setSiguiente(NodoAviones* s) {
+	void setSiguiente(NodoAviones* s) {   // Este Metodo se encarga de crea un set de siguiente.
 		this->siguiente = s;
 	}
 
-	Aviones getAvines() {
+	Aviones getAvines() {    // Este Metodo se encarga de crear el get de avines
 		return this->avi;
 	}
 
-	NodoAviones* getSiguiente() {
+	NodoAviones* getSiguiente() {     // Este Metodo se encarga de crear el get de siguiente
 		return this->siguiente;
 	}
 

@@ -11,27 +11,27 @@ private:
 
 public:
 
-	Pilotos() {
+	Pilotos() {   //Contructor
 		nombre = "";
 	}
 
-	Pilotos(string nNombre) {
+	Pilotos(string nNombre) {   
 		setNombre(nNombre);
 	}
 
-	void setNombre(string nNombre) {
+	void setNombre(string nNombre) {    //Este Metodo se encarga de crea el set de nombre
 		this->nombre = nNombre;
 	}
 
-	string getNombre() {
+	string getNombre() {    // Este Metodo se encarga de crear el get de nombre
 		return this->nombre;
 	}
 
-	void mostrarNombrePilotos() {
+	void mostrarNombrePilotos() {   // Metodo para mostrar la informacion del nombre.
 		cout << "Nombre: " << getNombre() << endl << endl;
 	}
 
 
 
-	~Pilotos() {}
+	~Pilotos() {}  // destructor
 };

@@ -16,7 +16,7 @@ public:
 		primero = actual = NULL;
 	}
 
-	void insertarAviones(Aviones a) {
+	void insertarAviones(Aviones a) {  // Este metodo lo que hace es que se guarda la informacion para la lista
 		actual = primero;
 		if (primero == NULL) {
 			primero = new NodoAviones(a);
@@ -27,7 +27,7 @@ public:
 		}
 	}
 
-	void imprimeListaAviones() {
+	void imprimeListaAviones() {   // Este metodo se encarga de imprimir los datos actuales que tiene.
 		actual = primero;
 		cout << "Lista de aviones: " << endl << endl;
 		while (actual != NULL) {
@@ -58,7 +58,7 @@ public:
 		}
 	}*/
 
-	~ListaAviones() {
+	~ListaAviones() {   //Destructor de la listaAviones
 		actual = primero;
 		while (primero != NULL) {
 			actual = primero;

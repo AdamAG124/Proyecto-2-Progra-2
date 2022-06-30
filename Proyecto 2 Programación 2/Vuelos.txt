@@ -1,0 +1,5 @@
+Origen:SJO, Destino:USA% Duracion:5 horas# Precio:1500$ ID:58
+Origen:ESP, Destino:PAM% Duracion:12 horas# Precio:5000$ ID:26
+Origen:USA, Destino:RUS% Duracion:15 horas# Precio:10000$ ID:89
+Origen:SJO, Destino:USA% Duracion:5 horas# Precio:2000$ ID:47
+Origen:LIB, Destino:MAN% Duracion:1 hora# Precio:500$ ID:5
